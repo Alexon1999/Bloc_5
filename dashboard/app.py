@@ -372,7 +372,7 @@ fig = go.Figure()
 fig.add_trace(go.Bar(
     y=tmp_connect.index,
     x=tmp_connect.values,
-    name='Count Late groups / All checkin rentals',
+    name='Count Late groups / Connect checkin rentals',
     orientation='h',
     marker=dict(
         color='rgba(58, 71, 80, 0.6)',
@@ -383,7 +383,7 @@ fig.add_trace(go.Bar(
 fig.add_trace(go.Bar(
     y=tmp_all_checkin.index,
     x=tmp_all_checkin.values,
-    name='Count Late groups / Connect checkin rentals',
+    name='Count Late groups / All checkin rentals',
     orientation='h',
     marker=dict(
         color='rgba(246, 78, 139, 0.6)',
